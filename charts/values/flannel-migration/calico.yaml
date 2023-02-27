@@ -1,3 +1,0 @@
-datastore: kubernetes
-network: calico
-flannel_migration: true

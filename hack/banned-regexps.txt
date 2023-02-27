@@ -1,4 +1,0 @@
-white.list
-whitelist
-black.list
-blacklist
