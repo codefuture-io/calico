@@ -1,3 +1,0 @@
-datastore: etcd
-network: flannel
-includeCRDs: false
