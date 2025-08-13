@@ -274,7 +274,7 @@ func (aggregator *HealthAggregator) Summary() *HealthReport {
 	// Prepare a table to report detail.
 	var buf bytes.Buffer
 	table := tablewriter.NewWriter(&buf)
-	table.SetHeader([]string{"COMPONENT", "TIMEOUT", "LIVENESS", "READINESS", "DETAIL"})
+	table.Header([]string{"COMPONENT", "TIMEOUT", "LIVENESS", "READINESS", "DETAIL"})
 	componentData := map[string][]string{}
 	componentNames := []string(nil)
 
